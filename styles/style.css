@@ -1,0 +1,250 @@
+/* Montserrat-Medium */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+    url('../fonts/Montserrat-Medium.woff') format('woff'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/Montserrat-Medium.woff2') format('woff2');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* Montserrat-Regular */
+@font-face {
+  font-family: 'Montserrat-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/Montserrat-Regular.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* Oswald-Medium */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+    url('../fonts/Oswald-Medium.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/Oswald-Medium.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+/* Common */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #060D10;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  width: 1278px;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid red;
+}
+
+/* Header */
+.header {
+  padding: 31px 0 30px;
+  background-color: #66D1FF;
+}
+
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.number {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 34px;
+  text-decoration: none;
+  color: #060D10;
+}
+
+.number:hover {
+  text-decoration: underline;
+}
+
+
+/* Promo */
+.promo {
+  background-image: url('../images/bgpromo.png');
+  background-color: #060D10;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.promo-fade {
+  background-color: rgba(6, 13, 16, 0.25);
+  padding: 240px 0 260px;
+}
+
+.promo-title {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 89px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 2px #060D10;
+  margin-bottom: 60px;
+}
+
+.promo-info {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 2px #060D10;
+}
+
+
+/* Description */
+.description {
+  color: #060D10;
+  background: rgba(102, 209, 255, .1);
+  padding: 170px 0 100px;
+}
+
+.description-title {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 80px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.description-flex {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.description-list {
+  margin-bottom: 70px;
+  width: 33.33%;
+  list-style: none;
+}
+
+.description-item {
+  margin-left: 0;
+}
+
+.description-caption {
+  font-family: "Oswald", sans-serif;
+  font-size: 32px;
+  line-height: 167%;
+  text-transform: uppercase;
+}
+
+.description-text {
+  font-size: 26px;
+  line-height: 36px;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+/* Order */
+.order {
+  background:
+    linear-gradient(208deg,
+    rgba(102, 209, 255, .1) 43.85%,
+    rgba(196, 196, 196, 0) 43.86%);
+  padding: 0 0 180px;
+}
+
+.order-info {
+  border-top: 1px solid rgba(6, 13, 16, .5);
+  padding-top: 170px;
+}
+
+.order-text {
+  font-family: 'Oswald', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #060D10;
+}
+
+.btn {
+  height: 86px;
+  width: 505px;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  background: none;
+  border: 3px solid #060D10;
+  border-radius: 4px;
+  margin: 60px 0 130px;
+}
+
+.foto-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.foto-img {
+  background: #C4C4C4;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Footer */
+.footer{
+  background: #060D10;
+  color: #FFF;
+  padding: 35px 0 36px;
+}
+
+.footer-flex {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.footer-join {
+display: flex;
+}
+
+.social {
+display: flex;
+}
+
+.social-item{
+margin-left: 20px;
+}
+
+.footer-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 33px;
+}
+
+.copyright {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
